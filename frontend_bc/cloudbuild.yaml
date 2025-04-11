@@ -1,5 +1,6 @@
 steps:
   - name: "gcr.io/google.com/cloudsdktool/cloud-sdk"
+    dir: "frontend_bc"
     entrypoint: "bash"
     args:
       [
